@@ -9,6 +9,11 @@ def sigmoid(x):
     return s
 
 
+x = np.array([1,2,3])
+s=sigmoid(x)
+print(s)
+
+
 
 
     
