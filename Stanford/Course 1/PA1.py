@@ -1,21 +1,15 @@
-
-
-import numpy as np  
-
-def sigmoid(x):
+def sigmoid_derivative(x):
+    """
+    Compute the gradient (also called the slope or derivative) of the sigmoid function with respect to its input x.
+    You can store the output of the sigmoid function into variables and then use it to calculate the gradient.
     
-    s = 1/(1+np.exp(-x))
+    Arguments:
+    x -- A scalar or numpy array
 
-    return s
-
-
-x = np.array([1,2,3])
-s=sigmoid(x)
-print(s)
-
-
-
-
+    Return:
+    ds -- Your computed gradient.
+    """
     
-
-
+    
+    
+    
