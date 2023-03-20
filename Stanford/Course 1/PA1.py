@@ -26,6 +26,24 @@ def image2vector(image):
     v = image.reshape(image.shape[0]*image.shape[1]*image.shape[2], 1)
     return v
 
+
+def normalizeRows(x):
+    """
+    Implement a function that normalizes each row of the matrix x (to have unit length).
+    
+    Argument:
+    x -- A numpy matrix of shape (n, m)
+    
+    Returns:
+    x -- The normalized (by row) numpy matrix. You are allowed to modify x.
+    """
+    
+
+
+
+
+
+
 image = np.array(
     [
     
