@@ -8,7 +8,9 @@ def basic_sigmoid(x):
     return x
 
 
-print(x)
+print(basic_sigmoid(3))
 
-he
+h
+
+
 
