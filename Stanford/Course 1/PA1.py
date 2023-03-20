@@ -38,6 +38,8 @@ def normalizeRows(x):
     x -- The normalized (by row) numpy matrix. You are allowed to modify x.
     """
     
+    
+    
 
 
 
