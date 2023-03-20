@@ -38,6 +38,10 @@ def normalizeRows(x):
     x -- The normalized (by row) numpy matrix. You are allowed to modify x.
     """
     
+    x_norm = np.linalg.norm(x,axis=1,keepdims=True)
+    x_normalized = x/x_norm
+    return x_normalized
+    
     
     
 
