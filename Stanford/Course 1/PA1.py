@@ -72,9 +72,12 @@ def L1(yhat, y):
     """
     
     ### START CODE HERE ### (≈ 1 line of code)
+    loss = np.sum(abs(y-yhat))
     ### END CODE HERE ###
     
     return loss
     
-
+yhat = np.array([.9, 0.2, 0.1, .4, .9])
+y = np.array([1, 0, 0, 1, 1])
+print("L1 = " + str(L1(yhat,y)))
 
