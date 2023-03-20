@@ -1,4 +1,14 @@
-number = 1
+import math
 
-number += 1
-print(number)
+
+def basic_sigmoid(x):
+    
+    x = 1/(1+math.exp(-x))
+    
+    return x
+
+
+print(x)
+
+he
+
