@@ -90,7 +90,8 @@ def L2(yhat, y):
     """
     
     ### START CODE HERE ### (≈ 1 line of code)
-    loss = np.sum((y-yhat)**2)
+    x = y -yhat
+    loss = np.dot(x,x)
     return loss
     ### END CODE HERE ###
     
