@@ -10,7 +10,12 @@ def basic_sigmoid(x):
 
 print(basic_sigmoid(3))
 
-h
 
+import numpy as np  
+
+def sigmoid(x):
+    
+    s 
+    
 
 
