@@ -1,6 +1,7 @@
 
 
 import numpy as np  
+import math
 
 
 def basic_sigmoid(x):  
